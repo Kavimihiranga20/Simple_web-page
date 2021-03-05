@@ -1,0 +1,102 @@
+Body{
+		/*color:red;*/
+		background-color:#9c9f84;
+		font-family:Verdana, Georgia, serif;/*this front family will be 
+											according to the fonts they have
+											in there computer*/
+		font-size:14pt;
+		margin:0px;
+							
+}
+
+/*px mean pixels*/
+
+#header {
+	background-color:#5c755e;/*Like ash color*/
+	margin:10px;/*gutter  --- it call margin*/
+	height:90px;/*px mean pixels*/
+	border-radius: 5px;/*carve the corners  or round the corners*/
+
+}
+
+#navber {
+	background-color:#5c755e;/*Like ash color*/
+	margin:10px;/*gutter  --- it call margin*/
+	height:35px;
+	border-radius:5px;/*carve the corners  or round the corners*/
+
+}
+
+.main{/* . use for class */
+	background-color:#e5e4d7;/*Like ash color*/
+	margin-left:10px;/*gutter  --- it call margin*/
+	margin-right:320px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:20px;/*this is the length between of the border and the text*/
+	border-radius:5px;/*carve the corners  or round the corners*/
+	font-size:110%;/*This is increasing according to the body font-size
+						---font-size:14pt;---14*110% */
+
+   /*we don't use hight or width beacause we don't need that,when we put some 
+     text in there it take sufficent amount of space in there without our
+     interfearing */
+}
+
+h1{
+     	font-size:120%;
+     	color:#ce282e;
+
+     }
+
+h2{
+	font-size:120%;
+	color:darkblue;
+}
+
+.sideright{/* Lecture Days*/
+	background-color:#e5e4d7;/*Like ash color*/
+	/*margin:10px;/*gutter  --- it call margin*/
+	margin-left:10px;/*gutter  --- it call margin*/
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:10px;
+	padding:20px;/*this is the length between of the border and the text*/
+	border-radius:5px;/*carve the corners  or round the corners*/
+	font-size:105%;/*This is increasing according to the body font-size
+						---font-size:14pt;---14*110% */
+	width:260px;
+	float:right;
+	clear:right;/* put Lecture table 2 in to the free area.
+				other wise it goes to the same place on----- .main ---- place*/
+
+} 
+
+.Sidebarimage{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:0px;
+	margin-bottom:10px;
+	border-radius:5px;
+	width:300px;
+	clear:right;
+	float:right;
+	opacity: 1.0;
+	transition:opacity 1s ease-in-out;
+
+}
+
+.sidebarimage:hover{
+
+	opacity: 0.4;
+}
+
+#footer{
+	border-radius:5px;
+	background-color:#5c755e;/*Like ash color*/
+	margin:10px;/*gutter  --- it call margin*/
+	height:70px;/*px mean pixels*/
+
+
+}
+
